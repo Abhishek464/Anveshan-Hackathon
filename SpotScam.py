@@ -5,7 +5,7 @@ import seaborn as sns
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForigin mainestClassifier
 from sklearn.metrics import f1_score, classification_report
 from sklearn.pipeline import Pipeline
 from sklearn.base import BaseEstimator, TransformerMixin
